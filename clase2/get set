@@ -1,0 +1,62 @@
+clase persona
+	public nombre como Caracter
+	private ci como entero 
+	public tlf como entero
+
+	 metodo informacion ()
+	 mostrar "ingresar el nombre"
+	 leer nombre
+	 mostrar "ingresar cedula de identidad"
+	 leer ci
+	 mostrar "ingresar el numero  de telefono "
+	 leer tlf
+	 fin metodo
+
+	  public metodo getci () como real
+	  retornar ci  
+	  fin metodo 
+
+
+	  public metodo setci (nuevo)
+	  ci=nuevo
+	  fin metodo
+
+
+fin clase
+class asignatura
+	definir nombre como Caracter 
+	private nota como entero
+
+	metodo inf_clase ()
+	mostrar "ingresar el nombre de la asignatura"
+	leer nombre
+	mostrar "ingresar nota"
+	leer nota 
+
+
+	fin metodo 
+	public metodo getnota() como entero
+	retornar nota
+	fin metodo
+	public metodo setnota (nueva_not) 
+	nota=nuevo_not
+	fin metodo 
+
+
+
+fin clase 
+
+algoritmo 
+definir per1 como persona
+per1=nuevo persona()
+
+per1.inf_clase()
+per1.setnota(20)
+mostrar "la nota asignada fue: " per1.getnota()
+
+per1.informacion()
+per1.setci(2814544)
+
+mostrar "la cedula es: " per1.getci()
+
+fin algoritmo

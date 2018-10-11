@@ -1,0 +1,44 @@
+clase libro
+private nombre, autor,editorial como caracter
+private cantidad_pag,fecha_publicacion como numerico
+private precio como real 
+
+
+
+
+
+
+	publico metodo libro (n,a,e,c,f,p)
+	nombre=n
+	autor=a
+	editorial=e
+	cantidad_pag=c
+	fecha_publicacion=f
+	precio=p;
+	fin metodo
+
+
+		public metodo calcular_iva()
+	definir iva, total_iva como real
+	iva=precio*0.15
+	total_iva=precio+iva
+	fin metodo 
+
+fin clase
+algoritimo
+definir l1 como libro 
+
+
+n="cadi"
+a="cadif1"
+e="editorial"
+c=1234
+f=2018
+p=500
+
+li=nuevo libro(n,a,e,c,f,p)
+li.calcular_iva()
+
+
+
+finalgoritmos

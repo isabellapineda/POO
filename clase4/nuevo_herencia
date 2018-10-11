@@ -1,0 +1,43 @@
+clase fecha
+	definir dia,mes,año como entero
+
+finclase
+-----------------------------------------------------------------------------------------------------
+
+abstracta clase paciente
+	publico nombre como caracter 
+	publico  cedula como entero
+	protegida tipo_sangre como Caracter
+	publico nacimiento como fecha
+
+
+	metodo mostrar()
+	mostrar "Paciente" nombre
+	mostrar "CI" cedula
+	mostrar "tipo de sangre" tipo_sangre
+	mostrar "fecha de nacimiento: " nacimiento 
+
+	finmetodo 
+
+fin clase
+-----------------------------------------------------------------------------------------------------
+clase hospitalizado extiende paciente
+	definir dia_ospitalizacion como fecha
+	definir razones como caracter 
+	definir 
+
+	metodo mostrar()
+		
+			mostrar "dia  de hospitalizado " dia_hospitalizacion
+			mostrar "razones :" razones 
+
+	finmetodo 
+	
+
+finclase
+
+algoritmo
+definir per como paciente
+
+
+finalgoritmo

@@ -1,0 +1,100 @@
+clase capitulo
+public definir numero como entero
+public definir descripcion como caracter
+
+fin clase
+----------------------------------------------------------------------------------------------------
+clase libro
+private nombre, autor,editorial como caracter
+private cantidad_pag,fecha_publicacion como numerico
+private precio como real 
+private definir capitulos coleccion<capitulo>
+
+public metod agregar_elemento()
+	capitulos.agregar
+
+
+
+
+
+
+	publico metodo libro (n,a,e,c,f,p)
+	nombre=n
+	autor=a
+	editorial=e
+	cantidad_pag=c
+	fecha_publicacion=f
+	precio=p;
+	fin metodo
+
+
+		public metodo calcular_iva()
+	definir iva, total_iva como real
+	iva=precio*0.15
+	total_iva=precio+iva
+	fin metodo 
+
+fin clase
+-----------------------------------------------------------------------------------------------------
+algoritimo
+definir l1 como libro 
+definir capitulos coleccion<capitulo>
+
+capitulo1=nuevo capitulo()
+
+capitulo.agregar(capitulo1)
+capitulos.agregar(nuevo capitulo)
+
+capitulo1=capitulos[0]
+capitulos[0].numero(28)
+
+
+n="cadi"
+a="cadif1"
+e="editorial"
+c=1234
+f=2018
+p=500
+
+li=nuevo libro(n,a,e,c,f,p)
+li.calcular_iva()
+
+
+
+finalgoritmos
+
+-------------------------------------------------------------------------------------------------
+clase notas 
+	definir calificacion como entero
+	definir materia como caracter
+
+
+
+fin clase
+
+clase alumno 
+	definir nombre como caracter
+	definir promedio como real
+	definir cedula como caracter
+	definir notas como coleccion<nota>
+
+	nota1.agregar()
+
+ metodo asignar_nota()
+ 		mostrar "ingrese la cantidad de notas"
+ 		leer cantidad
+ 		
+ 		para i=1 hasta cantidad hacer
+ 			mostrar"ingrese la calificacion"
+ 			leer valor
+
+		notas[i].calificacion=valor	
+
+ fin metodo
+
+ metodo promedio()
+
+
+ finmetodo
+
+ finclase
